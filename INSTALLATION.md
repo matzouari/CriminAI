@@ -1,4 +1,4 @@
-# Instructions d'installation du logiciel (MacOS)
+# Instructions d'installation du logiciel
 
   1. Assurez-vous d'avoir bien Python et Pip installés sur votre machine ;
   2. Ouvrir un terminal ;
@@ -11,7 +11,7 @@
   `from CriminAI import mainWindow`<br>
   `mainWindow()` ;
   9. Enregistrer et fermer le fichier ;
-  10. Dans le terminal, taper `/Applications/Python` et faire `tab` pour que le terminal autocomplète avec la bonne version de Python, puis ajouter `/Install\ Certificates.command`. <br>
+  10. Si vous êtes sur Mac, dans le terminal, taper `/Applications/Python` et faire `tab` pour que le terminal autocomplète avec la bonne version de Python, puis ajouter `/Install\ Certificates.command`. <br>
   Cela donne par exemple pour Python 3.12 : `/Applications/Python\ 3.12/Install\ Certificates.command` ;
   11. Puis installer le package via PyPi : `pip install CriminAI` ;
   12. Enfin, lancer l'application : `python3 appli.py` (pour notre cas, adapter le nom en fonction).
