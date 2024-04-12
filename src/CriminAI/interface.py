@@ -26,7 +26,6 @@ data_loader = DataLoader(celeba_dataset, batch_size=batch_size, shuffle=True)"""
 latent_dim = 64 # Définir les dimensions de l'espace latent
 
 # Charger le modèle sauvegardé
-print(os.path.join(os.path.dirname(__file__), 'vae_model.pth'))
 checkpoint = torch.load(os.path.join(os.path.dirname(__file__), 'vae_model.pth'))
 autoencoder = VAE(latent_dim)
 autoencoder.load_state_dict(checkpoint)

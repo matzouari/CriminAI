@@ -103,7 +103,6 @@ class VAE(nn.Module):
 
 
 if __name__ == "__main__":
-    print(put_data_here)
     """ # Définir les dimensions
     latent_dim = 64
 

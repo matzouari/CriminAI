@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "CriminAI"
-version = "1.0.1"
+version = "1.0.3"
 requires-python = ">= 3.10"
 authors = [
   {name = "ZOUARI Matis", email = "matis.zouari@insa-lyon.fr"},
