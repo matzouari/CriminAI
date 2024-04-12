@@ -1,3 +1,0 @@
-[build-system]
-requires = ['matplotlib>=3.0.0']
-build-backend = 'matplotlib.build_meta'

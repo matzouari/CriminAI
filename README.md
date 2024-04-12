@@ -25,6 +25,7 @@
     Ce logiciel est en cours de développement et peut contenir des bugs.
     Pour signaler un bug ou demander une fonctionnalité, veuillez ouvrir une issue sur GitHub.
 
+
 ## Auteurs
 
     Lisa Perez (@perezlisa)
