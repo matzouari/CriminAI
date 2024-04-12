@@ -723,26 +723,10 @@ def back_to_selection():
     PHOTOS = []
     global PHOTOS_ID
     PHOTOS_ID = []
-    for widget in center_frame.winfo_children():
-         widget.destroy()
     for widget in root.winfo_children():
-        if isinstance(widget, tk.Button) and widget['text'] == "Retour":
-            widget.destroy()
-    #for widget in low_frame.winfo_children():
-         #widget.destroy()
-    for widget in final_frame.winfo_children():
-         widget.destroy()
+        widget.destroy()
 
-    # Supprimer les images après utilisation (facultatif)
-    #for i in range(1,11):
-        #img_path = os.path.join("images_reconstruites", f"photo{i}.jpg")
-        #os.remove(img_path)
-    label2_welcome = tk.Label(center_frame, text="Bienvenue dans le créateur de portraits robots !",fg='black',bg="white",font=("Helvetica", 30))
-    label2_welcome.pack(padx=20,pady=10,fill=tk.X)
-    label2_explanation = tk.Label(center_frame, text=explanation_text, fg='black', bg="white", font=("Helvetica", 14), justify="left")
-    label2_explanation.pack(padx=20, pady=(0, 20))
-    button2_create = tk.Button(center_frame, text="Créer un portrait robot", command=choose_method,fg='black',foreground="black")#,font=("Helvetica", 15))
-    button2_create.pack(pady=5)
+    title_screen()
 
 
 #### PAGE METHODES ####
@@ -848,7 +832,9 @@ def mainWindow():
     global root
     root = tk.Tk()
     root.title("https://mon-portrait-robot.com")
+    title_screen()
 
+def title_screen():
     # Récupère les dimensions de l'écran
     screen_width = root.winfo_screenwidth()
     screen_height = root.winfo_screenheight()
@@ -894,18 +880,6 @@ def mainWindow():
     button_create = tk.Button(center_frame, text="Créer un portrait robot", command=create_portrait,fg='black',foreground="black")#,font=("Helvetica", 15))
     button_create.pack(pady=25)
     button_create.pack_forget()  # Masquer le bouton initialement
-
-    # Créer un bouton pour accéder au panier es photos sélectionnées
-    #button_panier = tk.Button(text="Photos sélectionnées", command=photos_selectioned)
-    #button_panier_after_retour = tk.Button(text="Photos sélectionnées", command=photos_selectioned)
-    # Créer une Frame pour contenir le bouton
-    #button_frame = tk.Frame(root, bg="white")
-    #button_frame.pack(side=tk.TOP, anchor='ne', padx=10, pady=10)
-    #button_panier_p2= tk.Button(text="Photos sélectionnées 2", command=photos_selectioned_p2)
-
-    # Créer un bouton pour créer un portrait robot dans une autres fonction
-    label2_welcome = tk.Label(center_frame, text="Bienvenue dans le créateur de portraits robots !",fg='black',bg="white",font=("Helvetica", 30))
-    button2_create = tk.Button(center_frame, text="Créer un portrait robot", command=create_portrait,fg='black',foreground="black")#,font=("Helvetica", 15))
 
     # Ajout des explications sur l'objectif de l'application
     global explanation_text
