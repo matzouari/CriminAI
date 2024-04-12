@@ -8,3 +8,5 @@ dist
 build
 CriminAI.egg*
 *.docx
+images_reconstruites
+images_selectionnees
