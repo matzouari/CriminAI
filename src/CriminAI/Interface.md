@@ -14,7 +14,7 @@ L'interface graphique est le code principal de l'application, permettant de fair
 
 ## Contributions
 
-Les contributions sont les bienvenues ! N'hésitez pas à soumettre des pull requests, pour améliorer notre application.
+Les contributions sont les bienvenues ! N'hésitez pas à nous contacter en cas de bug afin que nous puissions améliorer notre application.
 
 ## Contact
 
