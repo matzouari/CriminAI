@@ -2,8 +2,8 @@
 
     1) Ouvrir un terminal 
     2) Aller dans le dossier où on veut mettre l’application
-    3) Créer un environnement virtuel : python3 -m venv CriminAI
-    4) Aller dans l’environnement virtuel : cd CriminAI
+    3) Créer un environnement virtuel : `python3 -m venv CriminAI`
+    4) Aller dans l’environnement virtuel : `cd CriminAI`
     5) Activer l’environnement virtuel : source bin/activate
     6) Créer un fichier avec l’extension .py : touch appli.py (par exemple, le nom peut changer ; il ne faut juste pas que le nom soit le même que celui du package, à savoir CriminAI.py)
     7) L’ouvrir et écrire ces deux lignes : 
