@@ -1,7 +1,7 @@
 ## Instructions d'installation du logiciel
 
-    1) Ouvrir un terminal 
-    2) Aller dans le dossier où on veut mettre l’application
+    1. Ouvrir un terminal 
+    2. Aller dans le dossier où on veut mettre l’application
     3) Créer un environnement virtuel : _python3 -m venv CriminAI_
     4) Aller dans l’environnement virtuel : *cd CriminAI*
     5) Activer l’environnement virtuel : *source bin/activate*
