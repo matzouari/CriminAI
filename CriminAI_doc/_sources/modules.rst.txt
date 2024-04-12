@@ -1,9 +1,0 @@
-CriminAI
-========
-
-.. toctree::
-   :maxdepth: 4
-
-   autoencodeur
-   AlgoGenetique
-   interface

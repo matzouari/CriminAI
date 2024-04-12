@@ -1,7 +1,0 @@
-Algorithme Genetique
-====================
-
-.. automodule:: algo_genetique
-   :members:
-   :undoc-members:
-   :show-inheritance:
