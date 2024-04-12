@@ -26,6 +26,10 @@
     Pour signaler un bug ou demander une fonctionnalité, veuillez ouvrir une issue sur GitHub.
 
 
+## Documentation
+
+    La documentation pour ce projet Python est disponible à l'URL suivante : matzouari.github.io/CriminAI
+
 ## Auteurs
 
     Lisa Perez (@perezlisa)

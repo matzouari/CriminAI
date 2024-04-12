@@ -6,7 +6,8 @@ _*
 Makefile
 dist
 build
-CriminAI.egg*
+CriminAI.egg-info
 *.docx
 images_reconstruites
 images_selectionnees
+olivetti_py3.pkz
